@@ -1,0 +1,22 @@
+{
+  "name": "admin-thinkphp-element-vue-learning",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+
+    "axios": "^0.27.2",
+    "pinia": "^2.0.17",
+    "element-plus": "^2.2.8",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "vite": "^3.0.4"
+  }
+}
