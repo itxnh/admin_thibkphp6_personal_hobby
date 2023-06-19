@@ -46,7 +46,7 @@ class Login{
         );
         $ticket = Ticket::create($aUser['uid'],'ouyangke');
         $aUser['ticket'] = $ticket;
-        $this->returnCode(2,$aUser,'登陆成功');
+        $this->returnCode(0,$aUser,'登陆成功');
     }
     protected function returnCode($code,$data=[],$msg=''){
         header('Content-type:application/json');
